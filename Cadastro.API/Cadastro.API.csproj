@@ -12,4 +12,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cadastro.DOMAIN\Cadastro.DOMAIN.csproj" />
+    <ProjectReference Include="..\Cadastro.DATA\Cadastro.DATA.csproj" />
+    <ProjectReference Include="..\Cadastro.CORE\Cadastro.CORE.csproj" />
+  </ItemGroup>
+
 </Project>
